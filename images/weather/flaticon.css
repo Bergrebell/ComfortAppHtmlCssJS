@@ -1,0 +1,64 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-arrow183:before {
+	content: "\e000";
+}
+.flaticon-below:before {
+	content: "\e001";
+}
+.flaticon-big47:before {
+	content: "\e002";
+}
+.flaticon-falling:before {
+	content: "\e003";
+}
+.flaticon-mountain4:before {
+	content: "\e004";
+}
+.flaticon-mountain6:before {
+	content: "\e005";
+}
+.flaticon-outdoor:before {
+	content: "\e006";
+}
+.flaticon-raindrops1:before {
+	content: "\e007";
+}
+.flaticon-thermometer14:before {
+	content: "\e008";
+}
+.flaticon-umbrella5:before {
+	content: "\e009";
+}
+.flaticon-uv:before {
+	content: "\e00a";
+}
+.flaticon-warning14:before {
+	content: "\e00b";
+}
+.flaticon-weather15:before {
+	content: "\e00c";
+}
+.flaticon-weather16:before {
+	content: "\e00d";
+}
+.flaticon-wind6:before {
+	content: "\e00e";
+}
+.flaticon-windmill:before {
+	content: "\e00f";
+}
