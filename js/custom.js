@@ -8,7 +8,6 @@ $('#temp > input[type="button"]').click(function(){
 });
 
 
-
 $('#lighting > input[type="button"]').click(function(){
 	console.log("a lighting button pressed");
 	event.preventDefault();
@@ -18,12 +17,20 @@ $('#lighting > input[type="button"]').click(function(){
 });
 
 
-
 $('#noise > input[type="button"]').click(function(){
 	console.log("a noise button pressed");
 	event.preventDefault();
 
     $('#noise input[type="button"].active').removeClass('active');
+        $(this).addClass('active');
+});
+
+
+$('#activity > input[type="button"]').click(function(){
+	console.log("a activity button pressed");
+	event.preventDefault();
+
+    $('#activity input[type="button"].active').removeClass('active');
         $(this).addClass('active');
 });
 

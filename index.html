@@ -14,43 +14,53 @@
         <!-- Start Startpage aka Temperature -->
         <div id="page1">
 
-            <div class="fromContent" id="temp">
-                <p>Temperature</p>
-                <input type="button" id="btn1" value="Press Me 1" />
-                <input type="button" id="btn2" value="Press Me 2" />
-                <input class="active" type="button" id="btn3" value="Press Me 3" />
-                <input type="button" id="btn4" value="Press Me 4" />
-                <input type="button" id="btn5" value="Press Me 5" />     
+            <div id="formScales">
+                <div class="formContent" id="temp">
+                    <p>Temperature</p>
+                    <input type="button" id="btn1" value="Press Me 1" />
+                    <input type="button" id="btn2" value="Press Me 2" />
+                    <input class="active" type="button" id="btn3" value="Press Me 3" />
+                    <input type="button" id="btn4" value="Press Me 4" />
+                    <input type="button" id="btn5" value="Press Me 5" />     
+                </div>
+
+                <div class="formContent" id="lighting">
+                    <p>Lighting</p>
+                    <input type="button" id="btn6" value="Press Me 6" />
+                    <input type="button" id="btn7" value="Press Me 7" />
+                    <input class="active" type="button" id="btn8" value="Press Me 8" />
+                    <input type="button" id="btn9" value="Press Me 9" />
+                    <input type="button" id="btn10" value="Press Me 10" />       
+                </div>
+
+                <div class="formContent" id="noise">
+                    <p>Noise</p>
+                    <input type="button" id="btn11" value="Press Me 11" />
+                    <input type="button" id="btn12" value="Press Me 12" />
+                    <input class="active" type="button" id="btn13" value="Press Me 13" />
+                    <input type="button" id="btn14" value="Press Me 14" />
+                    <input type="button" id="btn15" value="Press Me 15" />       
+                </div>
             </div>
 
-            <div class="fromContent" id="lighting">
-                <p>Lighting</p>
-                <input type="button" id="btn6" value="Press Me 6" />
-                <input type="button" id="btn7" value="Press Me 7" />
-                <input class="active" type="button" id="btn8" value="Press Me 8" />
-                <input type="button" id="btn9" value="Press Me 9" />
-                <input type="button" id="btn10" value="Press Me 10" />       
-            </div>
-
-            <div class="fromContent" id="noise">
-                <p>Noise</p>
-                <input type="button" id="btn11" value="Press Me 11" />
-                <input type="button" id="btn12" value="Press Me 12" />
-                <input class="active" type="button" id="btn13" value="Press Me 13" />
-                <input type="button" id="btn14" value="Press Me 14" />
-                <input type="button" id="btn15" value="Press Me 15" />       
-            </div>
-
-            <!-- <div class="fromContent" id="activity">
-
-                <input type="button" id="btn16" class="activityBtn" value="Seated quiet" /> -->
-
-
-
+            <div id="activity">
+                <p>Activity</p>
+                <input class="activityBtn" type="button" id="btn16" value="Reading" />
+                <input class="activityBtn active" type="button" id="btn17" value="On Computer" />
+                <input class="activityBtn" type="button" id="btn18" value="In Meeting" />
+                <input class="activityBtn" type="button" id="btn19" value="On Phone" />
+                <input class="activityBtn" type="button" id="btn20" value="Walking" />
+                <input type="submit" id="submitButton" value="Submit"/>
 
             </div>
 
-            <input type="button" id="submitButton" value="Submit"/>
+            <div id="skip">
+                <input type="button" id="btn21" value="Skip" />
+                <input type="button" id="btn22" value="Don't Disturb today" />            
+
+            </div>
+
+
 
         </div>
 

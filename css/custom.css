@@ -2,21 +2,39 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: #ececec;
-
 }
 
 #page1 {
 	width: 100%;
 	height: 480px;
 	margin: 0 auto;
-
 }
+
+#formScales {
+	position: relative;
+	/* otherwise the float of the child gets it out of the document flow */
+	overflow:auto;
+}
+
+#activity {
+	position: relative;
+	overflow:auto;
+}
+
+#skip {
+	postion:relative;
+	overflow: auto;
+	margin-top: 10px;
+}
+
+
 
 #temp {
 	float: left;
 	width: 31vw;
-	padding-left: 6px;
+	padding-left: 5px;
 	padding-right: 5px;
+	margin-bottom: 5px;
 }
 
 #lighting {
@@ -24,6 +42,7 @@ body {
 	width: 31vw;
 	padding-left: 0px;
 	padding-right: 5px;
+	margin-bottom: 5px;
 }
 
 #noise {
@@ -31,10 +50,12 @@ body {
 	width: 31vw;
 	padding-left: 0px;
 	padding-right: 0px;
+	margin-bottom: 5px;
 }
 
 
 p {
+	font-family: helvetica, arial, sans-serif;	
 	font-size: 10;
 	text-align: center;
 	padding-top: 0px;
@@ -43,33 +64,35 @@ p {
 }
 
 .activityBtn {
-	height: 50px;
-	width: 50px;
-	background-color: green;
+	float: left;
+	height: 31vw;
+	width: 31vw;
+	margin-left: 5px;
 }
 
+
 .active {
-	background-color: rgba(200,200,200, 0.8);
-;
-	/*background-color: #3388cc;
-	border-color: #3388cc;
-	color: white;
-	text-align: center;
-	padding: 8px 12px;
-	margin-top: 5px;
-	font-size: 12px;
-	font-weight: 700;
-	font-family: helvetica, arial, sans-serif;
-	border-radius: 4px;
-	border: 1px solid #bcbcbc;*/
+	background-color: #99CCFF !important;
+	border: 1px solid #606060;
 }
 
 #submitButton {
-	float: bottom;
+	float: left;
+	height: 31vw;
+	width: 31vw;
+	margin-left: 5px;
+	background-color: transparent; 
+    background-repeat: no-repeat;  
+    background-position: 20px 10px;  
+    vertical-align: middle; 
+    line-height: 160px;	background-image: url(icons/photo74.png);
+	background-color: #77DD77;
+
 }
 
 input {
 	color: black;
+	width: 100%;
 	text-decoration: none;
 	text-align: center;
 	padding: 8px 12px;
@@ -78,38 +101,52 @@ input {
 	font-weight: 700;
 	font-family: helvetica, arial, sans-serif;
 	border-radius: 4px;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #606060;
 	background-color: rgba(255,255,255, 0.8);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12);
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-
-
-
 }
 
-/*input {
-	display: inline-block;
-	position: relative;
-	color: #888;
-	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
-	text-decoration: none;
-	text-align: center;
-	padding: 8px 12px;
-	margin-top: 5px;
-	font-size: 12px;
-	font-weight: 700;
-	font-family: helvetica, arial, sans-serif;
-	border-radius: 4px;
-	border: 1px solid #bcbcbc;
+/* css baseclass */
+baseActivityBox, 
+/* inherit from baseclass */
+#btn16, 
+#btn17, 
+#btn18, 
+#btn19, 
+#btn20 {
+	background-color: transparent; 
+    background-repeat: no-repeat;  
+    background-position: 20px 10px;  
+    vertical-align: middle; 
+    line-height: 160px;
+}
 
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+#btn16 {
+	background-image: url(icons/man216.png);
+}
+#btn17 {
+	background-image: url(icons/work12.png);
+}
+#btn18 {
+	background-image: url(icons/businessman.png);
+}
+#btn19 {
+	background-image: url(icons/smartphones17.png);
+}
+#btn20 {
+	background-image: url(icons/business163.png);
+}
 
-	background-image: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%);
-	background-image: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%);
-	background-image: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%);
-	background-image: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%);
-	background-image: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,239,1) 60%,rgba(225,223,226,1) 100%);
+#btn21 {
+	width: 30vw;
+	margin-left: 5px;
+	background-color: #ED2939;
+}
+#btn22 {
+	width: 65vw;
+	background-color: #ED2939;
+
 }
 
 
